@@ -272,7 +272,6 @@ background-color: rgba(255, 255, 255, 0.3);
     font-weight: 600;
     margin-top: 15px;
     padding: 15px 0 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 #background h1, #background h2, #background h3, #background h4 {
     color: #FFFFFF;
@@ -459,7 +458,7 @@ h5 {
 	z-index: 110;
 	width: 100%;
 	text-align:center;
-    background-color: #0875bd ;
+    background-color: #0875bd;
 }
 .centered { text-align: center !important; }
 .knob { color: rgba(255,255,255,0.4) !important; }
@@ -637,10 +636,12 @@ h5 {
     float: left;
     margin-top: 5%;
     width: 48%;
+    text-align: justify;
 }
 .half_column2 {
     float: right;
     margin-top: 5%;
+    padding-top: 5%;
     width: 48%;
 }
 #Skills .half_column1, #Skills .half_column2, #Contact .half_column1, #Contact .half_column2 {margin-top: 0%; }
@@ -656,6 +657,10 @@ h5 {
     margin-bottom: 5%;
     width: 31%;
     text-align: left;
+}
+.job_description {
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .two_third_last {
     float: right;
