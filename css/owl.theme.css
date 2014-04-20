@@ -50,7 +50,7 @@
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	background: #ffffff;
+	background: #000000;
     transition: all 0.2s ease-in-out;
     border: 1px solid transparent;
     padding: 2px;
@@ -61,7 +61,7 @@
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 0.5;
     background: transparent;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     padding: 2px;
 }
 

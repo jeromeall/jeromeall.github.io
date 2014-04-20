@@ -6,12 +6,12 @@
   box-sizing: border-box;
 }
 body, html {
-	background-color: #262B30;
+	background-color: #000000;
 	/*background: url("../img/background4.jpg") no-repeat scroll 0 0 / cover transparent;  <-- you could remove the color and use an image */
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inconsolata';
     height: 100%;
 	min-height: 100%;
     margin: 0;
@@ -20,10 +20,10 @@ body, html {
 	text-rendering: optimizeLegibility;
     background-position: center center;
 }
-footer { background-color: #262B30; padding: 20px 0 50px 0; }
+footer { background-color: #000000; padding: 20px 0 50px 0; }
 footer p {
-	color: #ffffff;
-	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	font-family: 'Inconsolata';
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 1.6em;
@@ -34,7 +34,7 @@ header {
 	position: fixed;
 	top:0;
 	z-index:9999;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
 }
 .header-container {
 	padding: 0;
@@ -42,8 +42,9 @@ header {
 }
 a img, a, img { border: none; outline: none; text-decoration: none;}
 .headshot {
-    border: 5px solid rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+    -webkit-filter: grayscale(20%);
+    border: 5px solid rgba(255, 255, 255, .1);
+    border-radius: 30%;
     height: auto;
     width: 170px;
     margin-bottom: 20px;
@@ -112,8 +113,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ace7929', e
 	background-size: cover;
 }
 p {
-	color: rgba(255, 255, 255, 0.75);
-	font-family: 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, 0.75);
+	font-family: 'Inconsolata';
 	font-weight: 400;
 	font-size: 21px;
 	line-height: 1.7em;
@@ -122,7 +123,7 @@ p.copyright { font-size: 11px; opacity: 0.7;}
 p.centered { text-align: center; }
 p.caption {
 	color: rgba(255,255,255,1);
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
 	font-weight: 300;
 	font-size: 13px;
 	line-height: 1.3em;
@@ -135,7 +136,7 @@ ul, ol {
     padding: 0;
 }
 ol li {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inconsolata';
     font-size: 18px;
     line-height: 1.7em;
     list-style: decimal outside none;
@@ -143,7 +144,7 @@ ol li {
 	color: rgba(95,117,137,1);
 }
 ul li {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inconsolata';
     font-size: 18px;
     line-height: 1.7em;
     list-style: square outside none;
@@ -152,18 +153,18 @@ ul li {
 }
 ul li a, ol li a {
     cursor: pointer;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inconsolata';
     font-size: 18px;
     transition: all 0.3s ease-in 0s;
 }
 li.checkmark { list-style: none outside none; }
 li.checkmark:before { content: '✔'; margin-left: -19px; margin-right: 6px; font-size: 20px;}
 blockquote:before {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0.4);
     content: "\201C";
     display: inline-block;
     font-family: georgia;
-    font-size: 114px;
+    font-size: 80px;
     position: relative;
     vertical-align: top;
     width: 6%;
@@ -178,32 +179,32 @@ blockquote {
 }
 blockquote p {
     display: inline-block;
-    font-family: 'Raleway', sans-serif;
-    font-size: 42px;
+    font-family: 'Inconsolata';
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.4em;
     margin: 0;
     width: 90%;
-    color: #ffffff;
+    color: #000000;
 }
-.testimonials blockquote:before {
+.Quotes blockquote:before {
     display: none;
 }
-.testimonials blockquote {
+.Quotes blockquote {
     border: 0 none;
     display: block;
     margin: 0;
     padding: 0 0 20px 0;
 }
-.testimonials blockquote p {
+.Quotes blockquote p {
     width: 100%;
 	text-align:left;
 	padding-bottom: 30px;
 }
-.testimonials blockquote cite {
+.Quotes blockquote cite {
 	color: #ffffff;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Inconsolata';
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -225,7 +226,7 @@ blockquote p {
 }
 #godown p {
 	color: #ffffff;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
 	font-weight: 700;
 	font-size: 11px;
 	line-height: 1.4em;
@@ -244,18 +245,18 @@ blockquote p {
     top: 25%\9;
     width: 90%;
 	text-align:left;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
     z-index:99;
 }
 .huge-title p {
 	color: #ffffff;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
 	font-weight: 300;
 	font-size: 20px;
 	line-height: 1.4em;
 }
 .small { 
-background-color: rgba(255, 255, 255, 0.3);
+background-color:#DEDEDE;
     border-radius: 3px;
     color: #FFFFFF;
     display: inline;
@@ -266,7 +267,7 @@ background-color: rgba(255, 255, 255, 0.3);
     position: absolute;
 }
 .date { 
-    color: #FFFFFF;
+    color: #000000;
     display: block;
     font-size: 14px;
     font-weight: 600;
@@ -274,12 +275,12 @@ background-color: rgba(255, 255, 255, 0.3);
     padding: 15px 0 20px;
 }
 #background h1, #background h2, #background h3, #background h4 {
-    color: #FFFFFF;
+    color: #000000;
 }
 h1 {
-    color: #FFFFFF;
+    color: #000000;
     letter-spacing: -3px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
 	font-size: 100px;
 	line-height: 1em;
 	font-weight: 700;
@@ -287,9 +288,9 @@ h1 {
 	margin: 0;
 }
 h2 {
-    color: #ffffff;
+    color: #000000;
     letter-spacing: -2px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
 	font-size: 42px;
 	line-height: 1.2em;
 	font-weight: 700;
@@ -297,11 +298,11 @@ h2 {
 	margin: 0 0 60px;
     text-transform: uppercase;
 }
-.border { border-left: 5px solid rgba(255, 255, 255, 0.3); padding: 0 0 0 20px;}
+.border { border-left: 5px solid rgba(0, 0, 0, .3); padding: 0 0 0 20px;}
 h3 {
-    color: rgba(255, 255, 255, 1);
+    color: black;
     letter-spacing: -1px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
 	font-size: 32px;
 	line-height: 1.2em;
 	font-weight: 700;
@@ -312,7 +313,7 @@ h3 {
 h4 {
     color: rgba(48, 66, 82, 0.7);
     letter-spacing: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
 	font-size: 23px;
 	line-height: 1.2em;
 	font-weight: 300;
@@ -322,7 +323,7 @@ h4 {
 }
 .huge-title h4 {
     letter-spacing: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
 	font-size: 33px;
 	line-height: 1.2em;
 	font-weight: 500;
@@ -333,9 +334,9 @@ h4 {
     opacity: 0.7;
 }
 h5 {
-    color: rgba(255, 255, 255, 1);
+    color: #393939;
     letter-spacing: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
 	font-size: 20px;
 	line-height: 1.2em;
 	font-weight: 600;
@@ -343,27 +344,27 @@ h5 {
 	margin: 0;
 	text-align:left;
 }
-.shadow { text-shadow: 0 0 6px rgba(0, 0, 0, 0.9); }
+/*.white { color: rgba(255, 255, 255, 0.9); }*/
 .container {
     background: none repeat scroll 0 0 transparent;
     z-index: 100;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
 	width: 100%;
 }
 .whitecontainer {
-    background: none repeat scroll 0 0 #097ecb;
+    background: none repeat scroll 0 0 #FFFFFF;
 	width: 100%;
 	padding: 80px 0;
 	overflow: auto;
 }
 .greycontainer {
-    background: none repeat scroll 0 0 #0875bd;
+    background: none repeat scroll 0 0 #FFFFFF;
 	width: 100%;
 	padding: 80px 0;
 	overflow: auto;
 }
 .parallax1 { 
-    background-image: url("../img/3d-Background-Wallpaper2.jpg");
+    background-image: url("../img/Geometric-Shapes-Abstract-blur.jpg");
     overflow: auto;
     padding: 80px 0;
     -webkit-background-size: cover;
@@ -372,9 +373,9 @@ h5 {
     background-position: center center;
     background-attachment: fixed;
 }
-.parallax1 p, .parallax1 h2, .parallax2 p, .parallax2 h2 { color: #ffffff; }
+.parallax1 p, .parallax1 h2, .parallax2 p, .parallax2 h2 { color: black; }
 .parallax2 {
-    background-image: url("../img/3d-Background-Wallpaper2.jpg");
+    background-image: url("../img/Geometric-Shapes-Abstract-blur.jpg");
     overflow: auto;
     padding: 80px 0;
     -webkit-background-size: cover;
@@ -397,7 +398,7 @@ h5 {
     padding: 30px 0px;
 }
 .hero .one_third {
-    border-left: 5px solid rgba(255,255,255,0.2);
+    border-left: 5px solid rgba(0,0,0,0.2);
     padding-left: 2%;
     width: 30.5%;
     margin: 20px 0;
@@ -415,18 +416,16 @@ h5 {
 }
 .hero h3 { 
     margin: 0 0 20px;
-    opacity: 0.4; 
 }
 .hero h4 {
-    color: #ffffff;
+    color: #393939;
     font-size: 16px;
     font-weight: 800;
-    opacity: 0.6;
     padding: 0 0 5px 0;
     text-align: left;
 }
 .hero h5 {
-    color: #ffffff;
+    color: #9B9B9B;
     font-size: 16px;
     font-weight: 500;
     text-align: left;
@@ -458,10 +457,10 @@ h5 {
 	z-index: 110;
 	width: 100%;
 	text-align:center;
-    background-color: #0875bd;
+    background-color: #F4F4F4;
 }
 .centered { text-align: center !important; }
-.knob { color: rgba(255,255,255,0.4) !important; }
+.knob { color: rgba(255,255,255,0.7) !important; }
 .button-box {
 	margin: 0 auto; 
 	display: block; 
@@ -470,7 +469,7 @@ h5 {
    border: 2px solid rgba(255,255,255,1);
    padding: 15px 40px 18px 40px;
    display: inline-block;
-   font-family: 'Raleway', sans-serif;
+   font-family: 'Inconsolata';
    font-size: 18px;
    text-align: center;;
    transition: all 0.3s ease-in-out;
@@ -493,11 +492,11 @@ h5 {
 .button {
     padding: 15px 40px;
     display: inline-block;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inconsolata';
     font-size: 16px;
     text-align: center;;
     transition: all 0.3s ease-in-out;
-    color: #0b86c8;
+    color: #000000;
     text-decoration: none;
     margin: 20px 20px auto 0;
     font-weight: 700;
@@ -507,7 +506,7 @@ h5 {
     border-radius: 3px;
 }
 .button:hover { 
-	background-color: #262B30;
+	background-color: #000000;
 	color: rgba(255, 255, 255, 1); 
 	text-decoration: none; 
 	padding: 15px 40px;
@@ -517,7 +516,7 @@ h5 {
 .button-reverse {
    padding: 15px 40px;
    display: inline-block;
-   font-family: 'Raleway', sans-serif;
+   font-family: 'Inconsolata';
    font-size: 16px;
    text-align: center;;
    transition: all 0.3s ease-in-out;
@@ -525,7 +524,7 @@ h5 {
    margin: 20px 20px auto 0;
    font-weight: 700;
    text-transform: uppercase;
-   background-color: #262B30;
+   background-color: #000000;
    color: rgba(255, 255, 255, 1); 
    letter-spacing: 2px;
     border-radius: 3px;
@@ -544,7 +543,7 @@ h5 {
 #socialsection { width: 90%; height: 40px; opacity: 0; left: 5%; bottom: -1px; position: fixed; z-index: 105; color: #ffffff; border-radius: 3px 3px 0 0; transition: all 0.3s ease-in-out;}
 #socialsection.hide { height: 100px; }
 #socialsection:hover { cursor: pointer; }
-#social-left { text-align: center; display: inline-block; height: 100%; width: 50%; background-color: #262B30; float: left; min-height: 100px; border-radius: 3px 0 0 0; transition: all 0.3s ease-in-out;}
+#social-left { text-align: center; display: inline-block; height: 100%; width: 50%; background-color: #000000; float: left; min-height: 100px; border-radius: 3px 0 0 0; transition: all 0.3s ease-in-out;}
 #social-left:before { content: "Follow Me"; font-size: 15px; font-weight: 600; display: block; padding-top: 13px; color: #ffffff; }
 #social-left a { min-height: 24px; color: #ffffff; display: inline-block; margin-top: 5px;}
 #social-left [class^="icon-"]:before, #social-left [class*=" icon-"]:before {font-size: 24px; min-height: 24px; }
@@ -563,7 +562,7 @@ h5 {
     z-index: 120;
     transition: all 0.3s ease-in-out;
 }
-#social-button:hover { background-color: #262B30; }
+#social-button:hover { background-color: #000000; }
 #social-button:hover:before { 
     border-top: 7px double #0B86C8;
     border-bottom: 2px solid #0B86C8;
@@ -579,7 +578,7 @@ h5 {
     width: 20px;
 }
 #menu-button {
-    background-color: #262B30;
+    background-color: #000000;
     border-radius: 0 0 3px 3px;
     float: none;
     left: 50%;
@@ -592,7 +591,7 @@ h5 {
     z-index: 120;
     transition: all 0.3s ease-in-out;
 }
-#menu-button:hover { background-color: #0B86C8; }
+#menu-button:hover { background-color: #ffffff; }
 #menu-button:hover:before { 
     border-top: 7px double #ffffff;
     border-bottom: 2px solid #ffffff;
@@ -607,7 +606,7 @@ h5 {
     top: 12px;
     width: 40px;
 }
-#social-right { text-align: center; display: inline-block; height: 100%; width: 50%; background-color: #262B30; float: left; min-height: 100px; border-radius: 0 3px 0 0 ; transition: all 0.3s ease-in-out;}
+#social-right { text-align: center; display: inline-block; height: 100%; width: 50%; background-color: #000000; float: left; min-height: 100px; border-radius: 0 3px 0 0 ; transition: all 0.3s ease-in-out;}
 #social-right:before { content: "Share This"; font-size: 15px; font-weight: 600; display: block; padding-top: 13px; color: #ffffff; }
 #social-right a { min-height: 24px; color: #ffffff; display: inline-block; margin-top: 5px;}
 #social-right [class^="icon-"]:before, #social-right [class*=" icon-"]:before {font-size: 24px; min-height: 24px; }
@@ -659,8 +658,16 @@ h5 {
     text-align: left;
 }
 .job_description {
-    color: white;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #393939;
+}
+.booster {
+    color: #FFFFFF;
+    display: inline-block;
+    margin-bottom: 8px; 
+    background-color: #393939;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
 }
 .two_third_last {
     float: right;
@@ -669,7 +676,7 @@ h5 {
     text-align: left;
 }
 .infopanel {
-    background: none repeat scroll 0 0 #0875BD;
+    background: none repeat scroll 0 0 rgba(255,255,255,.3);
     border-radius: 3px;
     box-shadow: none;
     margin-bottom: 1.25em;
@@ -678,7 +685,7 @@ h5 {
     transition: all 0.3s ease-in-out;
 }
 .infopanel:hover {
-    background: none repeat scroll 0 0 rgba(38,43,48, 1);
+    background: none repeat scroll 0 0 rgba(255,255,255,0);
 }
 .infopanel p, .infopanel a {
     font-size: 14px;
@@ -692,6 +699,7 @@ h5 {
 }
 .eye { 
     background-image: url("../img/magnify.gif");
+    -webkit-filter: grayscale(100%);
     background-position: center center;
     width: 99%;
     height: auto;
@@ -703,7 +711,7 @@ h5 {
 #Portfolio .one_third_last, #Portfolio .one_third {margin-bottom: 0; margin-top: 5%; }
  .one_third_last img, .one_third img, .half_column1 img, .half_column2 img, .hero img { width: 100%; height: auto; }  
 .one_third_last h2, .one_third h2 { font-size: 32px; padding: 0 0 10px 0; opacity: 0.4;}
-.one_third_last h3, .one_third h3 { font-size: 16px; margin: 0px; font-weight: 500; }
+.one_third_last h3, .one_third h3 { font-size: 20px; margin: 0px; font-weight: 500; }
 .two_third_last h3 { margin: 1px 0 10px 0;}
 .two_third_last h5 { display: inline; opacity: 0.7; margin-right: 20px;}
 .infopanel a img {
@@ -784,21 +792,21 @@ Contact Form Styling
     text-align: left;
 }
 #contact_form label {
-	font-family: 'Raleway',sans-serif;
+	font-family: 'Inconsolata';
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 0;
     line-height: 3em;
-    color: #ffffff;
+    color: #000000;
     opacity: 0.7;
     display: block;
     text-align: left;
 }
 textarea {
-	color: #262B30;
-	background-color: #FFFFFF;
+	color: #FFFFFF;
+	background-color: #393939;
     border: medium none;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Inconsolata';
     font-size: 18px;
     padding: 15px;
     width: 100%;
@@ -811,16 +819,16 @@ textarea {
     outline: none;
 }
 textarea:focus {
-    opacity: 1.0;
+    opacity: .5;
     -webkit-appearance: none;
     border: none;
     outline: none;
 }
 input[type=text] {
-	color: #262B30;
-	background-color: #FFFFFF;
+	color: #FFFFFF;
+	background-color: #393939;
     border: medium none;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Inconsolata';
     font-size: 18px;
     padding: 15px;
     width: 100%;
@@ -833,14 +841,14 @@ input[type=text] {
     outline: none;
 	}
 input[type=text]:focus {
-    opacity: 1.0;
+    opacity: .5;
     -webkit-appearance: none;
     border: none;
 } 
 input[type=submit] {
     padding: 15px 40px;
     display: inline-block;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inconsolata';
     font-size: 16px;
     text-align: center;;
     transition: all 0.3s ease-in-out;
@@ -848,7 +856,7 @@ input[type=submit] {
     margin: 20px 0 auto;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #262B30;
+    background-color: #000000;
     color: rgba(255, 255, 255, 1); 
     letter-spacing: 2px;
     border-radius: 3px;
@@ -860,7 +868,7 @@ input[type=submit] {
 input[type=submit]:hover {   
 	text-decoration: none; 
 	background-color: rgba(255,255,255,1);
-	color: #0b86c8;
+	color: #000000;
     border: none;
 }
 input:focus {
@@ -893,7 +901,7 @@ Menu Styling
 	margin: 0;
 	padding: 0;
 	margin-left: 20px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Inconsolata';
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #fbfbfb;
@@ -939,8 +947,8 @@ Menu Styling
     transition: all 0.2s ease-in-out;
 }
 .nav ul li a, .nav ul li a:hover { font-size: 14px; border-bottom: 0px solid transparent; }
-.nav ul li a:hover { color: #ffffff; border-top: 0px solid transparent; }
-.nav ul li:hover { background-color: #097ECB; }
+.nav ul li a:hover { color: #000000; border-top: 0px solid transparent; }
+.nav ul li:hover { background-color: #ffffff; }
 /*
 ==============================================
 Responsive Syling
@@ -1064,7 +1072,7 @@ Responsive Syling
     }
     .small {
     clear: left;
-    display: table;
+    display: inline-block;
     margin-top: 20px;
     position: relative;
     }

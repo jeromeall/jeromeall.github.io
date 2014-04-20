@@ -151,7 +151,7 @@
 
         //Video Wallpaper Settings - alter the URL's to your converted videos		
         $("#video_element").wallpaper({
-                source: "img/3d-Background-Wallpaper3.jpg"
+                source: "img/Geometric-Shapes-Abstract.jpg"
         });
 
         //fitVids
@@ -163,8 +163,8 @@
         //ScrolltoTop
         $("#toTop").scrollToTop(1000);
 
-        //owlCarousel - these settings are for the testimonials and sub heading under your name title at the top
-        $(".testimonials").owlCarousel({
+        //owlCarousel - these settings are for the Quotes and sub heading under your name title at the top
+        $(".Quotes").owlCarousel({
 
             // Most important owl features
             items: 1,
