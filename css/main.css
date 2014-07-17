@@ -1022,7 +1022,7 @@ Responsive Syling
     .half_column1 {
         float: left;
         margin-top: 5%;
-        text-align: center;
+        text-align: left;
         width: 100%;
     }
     .half_column2 {
