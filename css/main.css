@@ -363,7 +363,7 @@ h5 {
 	overflow: auto;
 }
 .parallax1 { 
-    background-image: url("../img/Geometric-Shapes-Abstract-blur.jpg");
+    background-image: url("../img/white-background.jpg");
     overflow: auto;
     padding: 80px 0;
     -webkit-background-size: cover;
@@ -374,7 +374,7 @@ h5 {
 }
 .parallax1 p, .parallax1 h2, .parallax2 p, .parallax2 h2 { color: black; }
 .parallax2 {
-    background-image: url("../img/Geometric-Shapes-Abstract-blur.jpg");
+    background-image: url("../img/white-background.jpg");
     overflow: auto;
     padding: 80px 0;
     -webkit-background-size: cover;

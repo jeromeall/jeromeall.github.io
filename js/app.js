@@ -149,9 +149,9 @@
             } // onInit
         });
 
-        //Video Wallpaper Settings - alter the URL's to your converted videos		
+        Video Wallpaper Settings - alter the URL's to your converted videos		
         $("#video_element").wallpaper({
-                source: "img/Geometric-Shapes-Abstract.jpg"
+                source: "img/white-background.jpg"
         });
 
         //fitVids
