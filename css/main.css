@@ -10,7 +10,7 @@ body, html {
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
-    font-family: 'Inconsolata';
+    font-family: Montserrat', sans-serif';
     height: 100%;
 	min-height: 100%;
     margin: 0;
@@ -22,7 +22,7 @@ body, html {
 footer { background-color: #000000; padding: 20px 0 50px 0; }
 footer p {
 	color: #000000;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 1.6em;
@@ -33,7 +33,7 @@ header {
 	position: fixed;
 	top:0;
 	z-index:9999;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 }
 .header-container {
 	padding: 0;
@@ -113,7 +113,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ace7929', e
 }
 p {
 	color: rgba(0, 0, 0, 0.75);
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 21px;
 	line-height: 1.7em;
@@ -122,7 +122,7 @@ p.copyright { font-size: 11px; opacity: 0.7;}
 p.centered { text-align: center; }
 p.caption {
 	color: rgba(255,255,255,1);
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	font-size: 13px;
 	line-height: 1.3em;
@@ -135,7 +135,7 @@ ul, ol {
     padding: 0;
 }
 ol li {
-    font-family: 'Inconsolata';
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     line-height: 1.7em;
     list-style: decimal outside none;
@@ -143,7 +143,7 @@ ol li {
 	color: rgba(95,117,137,1);
 }
 ul li {
-    font-family: 'Inconsolata';
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     line-height: 1.7em;
     list-style: square outside none;
@@ -152,7 +152,7 @@ ul li {
 }
 ul li a, ol li a {
     cursor: pointer;
-    font-family: 'Inconsolata';
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     transition: all 0.3s ease-in 0s;
 }
@@ -178,7 +178,7 @@ blockquote {
 }
 blockquote p {
     display: inline-block;
-    font-family: 'Inconsolata';
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -203,7 +203,7 @@ blockquote p {
 }
 .Quotes blockquote cite {
 	color: #ffffff;
-    font-family: 'Inconsolata';
+    font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -225,7 +225,7 @@ blockquote p {
 }
 #godown p {
 	color: #ffffff;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 11px;
 	line-height: 1.4em;
@@ -244,12 +244,12 @@ blockquote p {
     top: 25%\9;
     width: 90%;
 	text-align:left;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
     z-index:99;
 }
 .huge-title p {
 	color: #ffffff;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	line-height: 1.4em;
@@ -279,7 +279,7 @@ background-color:#DEDEDE;
 h1 {
     color: #000000;
     letter-spacing: -3px;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 100px;
 	line-height: 1em;
 	font-weight: 700;
@@ -289,7 +289,7 @@ h1 {
 h2 {
     color: #000000;
     letter-spacing: -2px;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 42px;
 	line-height: 1.2em;
 	font-weight: 700;
@@ -301,7 +301,7 @@ h2 {
 h3 {
     color: black;
     letter-spacing: -1px;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 32px;
 	line-height: 1.2em;
 	font-weight: 700;
@@ -312,7 +312,7 @@ h3 {
 h4 {
     color: rgba(48, 66, 82, 0.7);
     letter-spacing: 0;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 23px;
 	line-height: 1.2em;
 	font-weight: 300;
@@ -322,7 +322,7 @@ h4 {
 }
 .huge-title h4 {
     letter-spacing: 0;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 33px;
 	line-height: 1.2em;
 	font-weight: 500;
@@ -335,7 +335,7 @@ h4 {
 h5 {
     color: #393939;
     letter-spacing: 0;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	line-height: 1.2em;
 	font-weight: 600;
@@ -347,7 +347,7 @@ h5 {
 .container {
     background: none repeat scroll 0 0 transparent;
     z-index: 100;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	width: 100%;
 }
 .whitecontainer {
@@ -468,7 +468,7 @@ h5 {
    border: 2px solid rgba(255,255,255,1);
    padding: 15px 40px 18px 40px;
    display: inline-block;
-   font-family: 'Inconsolata';
+   font-family: 'Montserrat', sans-serif;
    font-size: 18px;
    text-align: center;;
    transition: all 0.3s ease-in-out;
@@ -491,7 +491,7 @@ h5 {
 .button {
     padding: 15px 40px;
     display: inline-block;
-    font-family: 'Inconsolata';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     text-align: center;;
     transition: all 0.3s ease-in-out;
@@ -515,7 +515,7 @@ h5 {
 .button-reverse {
    padding: 15px 40px;
    display: inline-block;
-   font-family: 'Inconsolata';
+   font-family: 'Montserrat', sans-serif;
    font-size: 16px;
    text-align: center;;
    transition: all 0.3s ease-in-out;
@@ -791,7 +791,7 @@ Contact Form Styling
     text-align: left;
 }
 #contact_form label {
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 0;
@@ -805,7 +805,7 @@ textarea {
 	color: #FFFFFF;
 	background-color: #393939;
     border: medium none;
-    font-family: 'Inconsolata';
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     padding: 15px;
     width: 100%;
@@ -827,7 +827,7 @@ input[type=text] {
 	color: #FFFFFF;
 	background-color: #393939;
     border: medium none;
-    font-family: 'Inconsolata';
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     padding: 15px;
     width: 100%;
@@ -847,7 +847,7 @@ input[type=text]:focus {
 input[type=submit] {
     padding: 15px 40px;
     display: inline-block;
-    font-family: 'Inconsolata';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     text-align: center;;
     transition: all 0.3s ease-in-out;
@@ -900,7 +900,7 @@ Menu Styling
 	margin: 0;
 	padding: 0;
 	margin-left: 20px;
-	font-family: 'Inconsolata';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #fbfbfb;
